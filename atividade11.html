@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+ <input type="text" id="demo" name="demo"><br><br>
+ 
+ 
+<label for="chk1">Minusculo:</label> 
+  <input type="checkbox" id="chk1" name="chk1" onclick="uper()"><br><br>
+  
+<label for="chk2">Maisculo:</label> 
+   <input type="checkbox" id="chk2" name="chk2"  onclick="lower()"><br><br>
+
+<script>
+function uper() {
+  document.getElementById("demo").style.textTransform = "uppercase";
+}
+
+function lower() {
+  document.getElementById("demo").style.textTransform = "lowercase";
+}
+</script>
+
+</body>
+</html>
